@@ -1,0 +1,33 @@
+[19-Sep-2020 21:11:12 UTC] PHP Notice:  Undefined variable: debugbarRenderer in E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\footer.php on line 14
+[19-Sep-2020 21:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\footer.php:14
+Stack trace:
+#0 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template.php(730): require_once()
+#1 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template.php(676): load_template('E:\\Repos\\WebSit...', true, Array)
+#2 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\index.php(9): get_footer()
+#4 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template-loader.php(106): include('E:\\Repos\\WebSit...')
+#5 E:\Repos\WebSitesDemos\grafikartTuto\wp-blog-header.php(19): require_once('E:\\Repos\\WebSit...')
+#6 E:\Repos\WebSitesDemos\grafikartTuto\index.php(17): require('E:\\Repos\\WebSit...')
+#7 {main}
+  thrown in E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\footer.php on line 14
+[19-Sep-2020 21:45:17 UTC] PHP Fatal error:  Uncaught DebugBar\DebugBarException: 'messages' is already a registered collector in E:\Repos\WebSitesDemos\grafikartTuto\vendor\maximebf\debugbar\src\DebugBar\DebugBar.php:65
+Stack trace:
+#0 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\debugbar.php(17): DebugBar\DebugBar->addCollector(Object(DebugBar\DataCollector\MessagesCollector))
+#1 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\header.php(3): require_once('E:\\Repos\\WebSit...')
+#2 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template.php(730): require_once('E:\\Repos\\WebSit...')
+#3 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template.php(676): load_template('E:\\Repos\\WebSit...', true, Array)
+#4 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#5 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\index.php(1): get_header()
+#6 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template-loader.php(106): include('E:\\Repos\\WebSit...' in E:\Repos\WebSitesDemos\grafikartTuto\vendor\maximebf\debugbar\src\DebugBar\DebugBar.php on line 65
+[19-Sep-2020 21:45:53 UTC] PHP Fatal error:  Uncaught DebugBar\DebugBarException: 'Session' is not a registered collector in E:\Repos\WebSitesDemos\grafikartTuto\vendor\maximebf\debugbar\src\DebugBar\DebugBar.php:92
+Stack trace:
+#0 E:\Repos\WebSitesDemos\grafikartTuto\vendor\maximebf\debugbar\src\DebugBar\DebugBar.php(481): DebugBar\DebugBar->getCollector('Session')
+#1 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\debugbar.php(17): DebugBar\DebugBar->offsetGet('Session')
+#2 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\header.php(3): require_once('E:\\Repos\\WebSit...')
+#3 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template.php(730): require_once('E:\\Repos\\WebSit...')
+#4 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\template.php(676): load_template('E:\\Repos\\WebSit...', true, Array)
+#5 E:\Repos\WebSitesDemos\grafikartTuto\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\index.php(1): get_header()
+#7 E:\Repos\Web in E:\Repos\WebSitesDemos\grafikartTuto\vendor\maximebf\debugbar\src\DebugBar\DebugBar.php on line 92
+[19-Sep-2020 21:46:39 UTC] PHP Notice:  Undefined variable: _SESSION in E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\debugbar.php on line 19
+[19-Sep-2020 21:48:16 UTC] PHP Notice:  Undefined variable: _SESSION in E:\Repos\WebSitesDemos\grafikartTuto\wp-content\themes\mytheme\debugbar.php on line 19
